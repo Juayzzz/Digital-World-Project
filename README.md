@@ -32,40 +32,39 @@ There are 8 Main class and I only use kivy and random to create this game
 THE 8 MAIN CLASS
 ------
 1. MyApp(App)
-⋅⋅* It is the base for creating kivy applications.
+* It is the base for creating kivy applications.
 
 2. GameWidget(Widget)
-⋅⋅* Using kivy.uix.widget.
-⋅⋅* The Widget class is the base class required for creating Widgets. 
-⋅⋅* I used this to initialise a keyboard(for my movement and shooting), label for my score, label for my life, canvas for background, play sound and finally create a time interval(so that movement for my character is the same for every computer).
-⋅⋅* I also def my spawn enemy rates here, def my getter and setter for both score and life, def my add_entity and remove_entity, and finally my collision entities.
+* Using kivy.uix.widget.
+* The Widget class is the base class required for creating Widgets. 
+* I used this to initialise a keyboard(for my movement and shooting), label for my score, label for my life, canvas for background, play sound and finally create a time interval(so that movement for my character is the same for every computer).
+* I also def my spawn enemy rates here, def my getter and setter for both score and life, def my add_entity and remove_entity, and finally my collision entities.
 
 3. GameOver(Popup)
-⋅⋅* The Popup widget is used to create modal popups. 
-⋅⋅* Used when the user loses the game
+* The Popup widget is used to create modal popups. 
+* Used when the user loses the game
 4. Entity(object)
-⋅⋅* This is to ensure that all my Player(SPongebob), Enemy(Jellyfish) and bullet(bubble) have the same initial position, size, source and instruction which can be changed
+* This is to ensure that all my Player(SPongebob), Enemy(Jellyfish) and bullet(bubble) have the same initial position, size, source and instruction which can be changed
 
 5. Bullet(Entity)
-⋅⋅* Initialise my Bullet to have sound,speed, pos and source.
-⋅⋅* def stop_callbacks to stop it from moving
-⋅⋅* def move_step to control its speed, check whether it is out of the screen and check whether it colliding with the enemy. When collides. When collide, it will remove the entity, while adding the explosion entity and adding score
+* Initialise my Bullet to have sound,speed, pos and source.
+* def stop_callbacks to stop it from moving
+* def move_step to control its speed, check whether it is out of the screen and check whether it colliding with the enemy. When collides. When collide, it will remove the entity, while adding the explosion entity and adding score
 
 6. Enemy(Entity)
-⋅⋅* Initialise speed, pos, source
-⋅⋅* def stop_callbacks to stop it from moving
-⋅⋅* def move_step to check whether if out of bound, to check if there is collision with player and to control its speed
+* Initialise speed, pos, source
+* def stop_callbacks to stop it from moving
+* def move_step to check whether if out of bound, to check if there is collision with player and to control its speed
 
 7. Explosion(Entity)
-⋅⋅* Initialise pos, sound playing and schedule it to be removed after a specific time
+* Initialise pos, sound playing and schedule it to be removed after a specific time
 
 8. Player(Entity)
-⋅⋅* Initialise source, shootin, pos, movement
-⋅⋅* def stopcallbacks to remove shooting and movement
-⋅⋅* def shootstep so that when 'spacebar' is pressed, Player will shoot bullet, calling the bullet to spawn at a specific location and calling the class bullet
-⋅⋅* def closeapp to close my window when Player press the button on the popup to show game has ended
-⋅⋅* def movestep for movement using 's' and 'w' keys, checking of collision, minus life if collides
-⋅⋅* created a global variable for gameWidget so can place a starting position of my player at a specific position
+* Initialise source, shootin, pos, movement
+* def stopcallbacks to remove shooting and movement
+* def shootstep so that when 'spacebar' is pressed, Player will shoot bullet, calling the bullet to spawn at a specific location and calling the class bullet⋅* def closeapp to close my window when Player press the button on the popup to show game has ended
+* def movestep for movement using 's' and 'w' keys, checking of collision, minus life if collides
+* created a global variable for gameWidget so can place a starting position of my player at a specific position
 
 
 LINKS
