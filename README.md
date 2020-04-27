@@ -5,8 +5,8 @@ This game is a combination of your bullet hell game and spongebob.
 In the game, you are playing as Spongebob(Player), and using the power of bubblesbullet) to defeat the jellyfish(enemy)
 The aim of this game is to get the highest score possible!
 I used python 3 and the 3 key libraries used are:
-⋅⋅* Kivy
-⋅⋅* Random
+1. Kivy
+2. Random
 
 HOW TO PLAY?
 ------
