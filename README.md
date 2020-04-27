@@ -78,10 +78,10 @@ THE 8 MAIN CLASS
 LINKS
 ------
 Here are where I got my sound and picture:
-[PixelMaker](http://pixelartmaker.com/) is what I used to draw my pixel art of spongebob, jellyfish and bubble popping 
-[Fesliyanstudios](https://www.fesliyanstudios.com/royalty-free-music/downloads-c/action-music/9) is where I got my intense background music
-[Zapsplat](https://www.zapsplat.com/page/2/?s=bubble+popping&post_type=music&sound-effect-category-id) is where I got my bubble popping sound effect
-[Google](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimage.net%2Fspongebob-background-png-4%2F&psig=AOvVaw3NHbAStm8MasfLgT_ft58C&ust=1587832370087000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC9_9mbiOkCFQAAAAAdAAAAABAD) is where I got my spongebob background
-[My video about the game](https://youtu.be/Yj11rsfllSA) Watch this to find out about my game! :)
+* [PixelMaker](http://pixelartmaker.com/) is what I used to draw my pixel art of spongebob, jellyfish and bubble popping 
+* [Fesliyanstudios](https://www.fesliyanstudios.com/royalty-free-music/downloads-c/action-music/9) is where I got my intense background music
+* [Zapsplat](https://www.zapsplat.com/page/2/?s=bubble+popping&post_type=music&sound-effect-category-id) is where I got my bubble popping sound effect
+* [Google](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimage.net%2Fspongebob-background-png-4%2F&psig=AOvVaw3NHbAStm8MasfLgT_ft58C&ust=1587832370087000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC9_9mbiOkCFQAAAAAdAAAAABAD) is where I got my spongebob background
+* [My video about the game](https://youtu.be/Yj11rsfllSA) Watch this to find out about my game! :)
 
 *GAME ON!*
