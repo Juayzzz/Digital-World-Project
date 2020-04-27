@@ -76,4 +76,4 @@ Here are where I got my sound and picture:
 [Google](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimage.net%2Fspongebob-background-png-4%2F&psig=AOvVaw3NHbAStm8MasfLgT_ft58C&ust=1587832370087000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC9_9mbiOkCFQAAAAAdAAAAABAD) is where I got my spongebob background
 [My video about the game](https://youtu.be/Yj11rsfllSA) Watch this to find out about my game! :)
 
-*GAME ON!8
+*GAME ON!*
