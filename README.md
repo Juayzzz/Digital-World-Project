@@ -34,30 +34,38 @@ THE 8 MAIN CLASS
 1. MyApp(App)
 * It is the base for creating kivy applications.
 
+
 2. GameWidget(Widget)
 * Using kivy.uix.widget.
 * The Widget class is the base class required for creating Widgets. 
 * I used this to initialise a keyboard(for my movement and shooting), label for my score, label for my life, canvas for background, play sound and finally create a time interval(so that movement for my character is the same for every computer).
 * I also def my spawn enemy rates here, def my getter and setter for both score and life, def my add_entity and remove_entity, and finally my collision entities.
 
+
 3. GameOver(Popup)
 * The Popup widget is used to create modal popups. 
 * Used when the user loses the game
+
+
 4. Entity(object)
 * This is to ensure that all my Player(SPongebob), Enemy(Jellyfish) and bullet(bubble) have the same initial position, size, source and instruction which can be changed
+
 
 5. Bullet(Entity)
 * Initialise my Bullet to have sound,speed, pos and source.
 * def stop_callbacks to stop it from moving
 * def move_step to control its speed, check whether it is out of the screen and check whether it colliding with the enemy. When collides. When collide, it will remove the entity, while adding the explosion entity and adding score
 
+
 6. Enemy(Entity)
 * Initialise speed, pos, source
 * def stop_callbacks to stop it from moving
 * def move_step to check whether if out of bound, to check if there is collision with player and to control its speed
 
+
 7. Explosion(Entity)
 * Initialise pos, sound playing and schedule it to be removed after a specific time
+
 
 8. Player(Entity)
 * Initialise source, shootin, pos, movement
