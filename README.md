@@ -32,12 +32,12 @@ There are 8 Main class and I only use kivy and random to create this game
 THE 8 MAIN CLASS
 ------
 1. MyApp(App)
-⋅⋅* It is the base for creating kivy applications
+⋅⋅* It is the base for creating kivy applications.
 
 2. GameWidget(Widget)
-⋅⋅* Using kivy.uix.widget
+⋅⋅* Using kivy.uix.widget.
 ⋅⋅* The Widget class is the base class required for creating Widgets. 
-⋅⋅* I used this to initialise a keyboard(for my movement and shooting), label for my score, label for my life, canvas for background, play sound and finally create a time interval(so that movement for my character is the same for every computer)
+⋅⋅* I used this to initialise a keyboard(for my movement and shooting), label for my score, label for my life, canvas for background, play sound and finally create a time interval(so that movement for my character is the same for every computer).
 ⋅⋅* I also def my spawn enemy rates here, def my getter and setter for both score and life, def my add_entity and remove_entity, and finally my collision entities.
 
 3. GameOver(Popup)
