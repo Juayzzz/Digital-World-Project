@@ -26,7 +26,9 @@ The aim is to reach the highest score possible. For the fun,you challenge your f
 
 CODE DESCRIPTION
 ------
+
 There are 8 Main class and I only use kivy and random to create this game
+
 THE 8 MAIN CLASS
 ------
 1. MyApp(App)
